@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: yellow;
+
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+
+
+/* ----------------index---------------- */
+.fbox {
+    margin: 20px 0% 20px 28.5%;
+}
+
+
+.childbox {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 40px 33px 10px 33px;
+}
+
+
+.childbox1 {
+    background-color: rgba(2, 125, 129, 0.80);
+    animation: childbox1 6s linear infinite;
+
+}
+
+@keyframes childbox1 {
+    0% {
+        transform: skewx(20deg);
+    }
+
+    50% {
+        transform: skewx(-20deg);
+    }
+
+    75% {
+        transform: skewx(-20deg);
+    }
+
+    100% {
+        transform: skewx(20deg);
+    }
+
+
+}
+
+
+.childbox2 {
+    background-color: rgba(99, 99, 99, 0.75);
+    animation: childbox2 2.5s linear infinite;
+
+}
+
+@keyframes childbox2 {
+    0% {
+        transform: skewx(25deg);
+    }
+
+    50% {
+        transform: skewx(-25deg);
+    }
+
+    75% {
+        transform: skewx(-25deg);
+    }
+
+    100% {
+        transform: skewx(25deg);
+    }
+
+}
+
+
+.childbox3 {
+    background-color: rgba(2, 125, 129, 0.80);
+    animation: childbox3 2s linear infinite;
+
+}
+
+@keyframes childbox3 {
+
+    25% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(270deg);
+    }
+
+}
+
+.childbox4a {
+    background-color: rgba(2, 125, 129, 0.80);
+    border: 3px solid rgba(2, 125, 129, 0.80);
+    animation: childbox4a 4s linear infinite;
+
+}
+
+@keyframes childbox4a {
+
+    0% {
+        transform: scaley(1);
+
+    }
+
+    50% {
+        transform: scaley(0.6);
+
+    }
+
+    75% {
+        transform: scaley(0.6);
+
+    }
+
+    100% {
+        transform: scaley(1);
+
+    }
+
+}
+
+.childbox4b {
+    background-color: rgba(139, 0, 0, 0.85);
+    border: 3px solid rgba(139, 0, 0, 0.85);
+    animation: childbox4b 4s linear infinite;
+
+}
+
+@keyframes childbox4b {
+
+    0% {
+        transform: scalex(1);
+
+    }
+
+    50% {
+        transform: scalex(0.4);
+
+    }
+
+    75% {
+        transform: scalex(0.4);
+
+    }
+
+    100% {
+        transform: scalex(1);
+
+    }
+
+}
+
+
+.childbox4c {
+    background-color: rgba(0, 155, 0, 0.55);
+    border: 3px solid rgba(0, 155, 0, 0.55);
+    animation: childbox4 4s linear infinite;
+
+}
+
+@keyframes childbox4 {
+
+    0% {
+        transform: rotate(100deg);
+
+    }
+
+    50% {
+        transform: rotate(0deg);
+
+    }
+
+    100% {
+        transform: rotate(100deg);
+
+    }
+
+}
+
+
+.fhref {
+    margin: 0px 0% 20px 35%;
+    font-size: xx-large;
+}
+
+
+
+/* ----------------index1---------------- */
+
+.second_page {
+    display: flex;
+    justify-content: center;
+}
+
+.sbox {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 155, 0, 0.55);
+    margin-bottom: 30px;
+    transition: width 1.5s, height 2.5s;
+}
+
+.sbox:hover {
+    width: 250px;
+}
+
+
+.sbox2:hover {
+    height: 250px;
+}
+
+.shref {
+    margin: 0px 0% 20px 46.5%;
+    font-size: xx-large;
+}
+
+/* ----------------index2---------------- */
+
+
+.body {
+    /* overflow-y: hidden; */
+    /* Hide vertical scrollbar */
+    overflow: hidden;
+    /* Hide horizontal scrollbar */
+    margin-top: 20px;
+}
+
+.sky {
+
+    border-color: whitesmoke green whitesmoke orange;
+    background: url(./sky.jpg);
+    /* background-size: cover; */
+    height: 640px;
+    position: relative;
+}
+
+
+span {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: xxx-large;
+}
+
+.happy {
+    background-color: rgb(255, 166, 0);
+    margin: 0% 0% 0% 22%;
+}
+
+.independence {
+    background-color: whitesmoke;
+}
+
+.day {
+    background-color: rgb(2, 155, 2);
+}
+
+.city {
+    margin-top: 126.5px;
+    position: relative;
+    animation: city 20s linear infinite;
+}
+
+@keyframes city {
+
+    0% {
+        transform: translatex(0%);
+    }
+
+
+    100% {
+        transform: translatex(-50%);
+    }
+
+}
+
+.road {
+
+    margin-top: -4px;
+    animation: road 1s linear infinite;
+
+}
+
+@keyframes road {
+
+    0% {
+        transform: translatex(-1%);
+    }
+
+    50% {
+        transform: translatex(-50%);
+    }
+
+    75% {
+        transform: translatex(-75%);
+    }
+
+    100% {
+        transform: translatex(-100%);
+    }
+
+}
+
+.car {
+
+    margin-top: -365px;
+    margin-left: 34%;
+    position: relative;
+
+}
+
+.wheel {
+    display: flex;
+    gap: 165.5px;
+    margin-left: 36.5%;
+    margin-top: -78px;
+}
+
+.wheel1,
+.wheel2 {
+    animation: wheel 0.1s linear infinite;
+
+}
+
+@keyframes wheel {
+
+    0% {
+        transform: rotate(0deg);
+
+    }
+
+    100% {
+        transform: rotate(20deg);
+
+    }
+
+}
+
+
+.flag {
+    margin-left: 56.6%;
+    margin-top: -175px;
+    position: relative;
+}
+
+
+.sun {
+    margin-left: 80.6%;
+    margin-top: -380px;
+}
+
+
+
+
+.borderout {
+    position: relative;
+    width: 100%;
+    height: 664px;
+    border: 12px solid whitesmoke;
+    margin-top: -660px;
+
+}
+
+
+.borderin {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    border: 12px solid;
+    border-color: whitesmoke green whitesmoke orange;
+}
